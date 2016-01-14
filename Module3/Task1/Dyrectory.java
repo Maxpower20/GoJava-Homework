@@ -1,18 +1,19 @@
-package Module3.Task1.Task1;
+package Module3.Task1.;
 
-import java.util.ArrayList;
+
 
 
 
 
 public class Dyrectory {
+    private String name;
+    private String pathToDyrectory;
+    private String fileName;
+    
+    private int quantityOfFiles;
+    
+    private boolean isEmpty;
 
 
-  public static void main(String[] args) {
-    ArrayList<File> filesList = new ArrayList<File>();
-    filesList.add(new Audio());
-    filesList.add(new Text());
-    filesList.add(new Image());
 
-  }
 }
