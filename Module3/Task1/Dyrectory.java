@@ -13,6 +13,8 @@ public class Dyrectory {
     private int quantityOfFiles;
     
     private boolean isEmpty;
+    
+    private List<File> files;
 
 
 
