@@ -8,7 +8,8 @@ public class Runner {
         flowers.add(new Aster("Norwean Aster"));
         flowers.add(new Chamomile("Ukrainian Chamomile"));
         flowers.add(new Tulip("French Tulip"));
-
+        
+        Printer.print(flowers);
         
     }
 }
