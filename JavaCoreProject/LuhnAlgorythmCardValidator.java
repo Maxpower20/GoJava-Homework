@@ -1,9 +1,9 @@
 public class LuhnAlgorythmCardValidator {
-    final static int CARDLENGTH = 16;
+    final static int CARD_LENGTH = 16;
 
 
     static boolean validateCard(String cardNumber){
-        if (cardNumber.length() < CARDLENGTH) {
+        if (cardNumber.length() < CARD_LENGTH) {
             throw new IllegalArgumentException("Card Number length must be 16 characters!");
         }
 
