@@ -5,7 +5,7 @@ public class Runner {
     public static void main(String[] args) {
         System.out.println("Please, enter a card number to validate");
         String cardNumber = userInput.nextLine();
-        boolean result = LuhnAlgorythm.luhnAlgo(cardNumber);
-        LuhnAlgorythm.printValidationResult(result);
+        boolean result = LuhnAlgorythmCardValidator.validateCard(cardNumber);
+        LuhnAlgorythmCardValidator.printValidationResult(result);
     }
 }
