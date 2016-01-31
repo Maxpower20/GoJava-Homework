@@ -23,13 +23,7 @@ public class LuhnAlgorythmCardValidator {
                 product -= 9;
             sum+= product;
         }
-        System.out.println(sum);
-        if (sum % 10 == 0){
-            System.out.println(true);
-        }
-        else {
-            System.out.println(false);
-        }
+        
         return (sum % 10 == 0);
 
 
